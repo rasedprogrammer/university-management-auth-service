@@ -1,6 +1,8 @@
-import express, { Application, Request, Response } from 'express'
-import cors from 'cors'
+import express, { Application } from 'express'
 import usersRouter from './app/modules/users/users.route'
+import cors from 'cors'
+// import ApiError from './errors/ApiError'
+import globalErrorHandler from './app/middlewares/globalErrorHandler'
 const app: Application = express()
 
 // Use Cors
@@ -15,8 +17,11 @@ app.use(express.urlencoded({ extended: true }))
 // Use API route
 app.use('/api/v1/users/', usersRouter)
 
-app.get('/', async (req: Request, res: Response) => {
-  res.send('Hello World!')
-})
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   throw new ApiError(400, 'Invalid Request')
+//   // res.send('Hello World!')
+// })
+
+app.use(globalErrorHandler)
 
 export default app

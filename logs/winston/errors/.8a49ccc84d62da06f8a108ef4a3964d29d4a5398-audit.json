@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\.8a49ccc84d62da06f8a108ef4a3964d29d4a5398-audit.json",
+    "files": [
+        {
+            "date": 1685945012346,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-05-06-12-error.log",
+            "hash": "055e05178f3d8c638f200a08431b61c78309c7d7b1756ea28a6d221430b98872"
+        },
+        {
+            "date": 1686148026466,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-07-06-20-error.log",
+            "hash": "8bf879ee43164457a35a24d4cf1735da749e44f8dbe59e4af5ee7a69d3cf4e24"
+        },
+        {
+            "date": 1686150363862,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-07-06-21-error.log",
+            "hash": "a800f257764380087725910c5e2d8125c2c2a6cee8701a9aebcd713a08d84f3b"
+        },
+        {
+            "date": 1686153635237,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-07-06-22-error.log",
+            "hash": "83df2bfb987bbbea942e79b23c9bb729db14599b3b0c1d669d884a0dc1c57eab"
+        }
+    ],
+    "hashType": "sha256"
+}
