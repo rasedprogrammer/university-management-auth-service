@@ -1,27 +1,41 @@
-import express, { Application } from 'express'
-import usersRouter from './app/modules/users/users.route'
-import cors from 'cors'
-// import ApiError from './errors/ApiError'
-import globalErrorHandler from './app/middlewares/globalErrorHandler'
-const app: Application = express()
+import express, { Application, NextFunction, Request, Response } from 'express';
+import cors from 'cors';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import routes from './app/routes';
+import httpStatus from 'http-status';
+const app: Application = express();
 
 // Use Cors
-app.use(cors())
+app.use(cors());
 
 // Use Parser
-app.use(express.json())
-
 // Use URL Encode
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-// Use API route
-app.use('/api/v1/users/', usersRouter)
+// Declare Routes
+app.use('/api/v1/', routes);
 
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   throw new ApiError(400, 'Invalid Request')
-//   // res.send('Hello World!')
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing Error logger')
 // })
 
-app.use(globalErrorHandler)
+// Global Error Handler
+app.use(globalErrorHandler);
 
-export default app
+// Not Found Page
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'The requested page not found',
+    errorMessages: [
+      {
+        path: req.originalUrl,
+        message: 'API not found',
+      },
+    ],
+  });
+  next();
+});
+
+export default app;
