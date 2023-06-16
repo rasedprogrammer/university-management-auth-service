@@ -13,8 +13,8 @@ let server: Server;
 
 async function main() {
   try {
-    await mongoose.connect('mongodb://127.0.0.1:27017/university-management'); // Use Locally
-    //await mongoose.connect(config.database_url as string);
+    //await mongoose.connect('mongodb://127.0.0.1:27017/university-management'); // Use Locally
+    await mongoose.connect(config.database_url as string);
     logger.info('Connect Database🛢️ Successfully');
 
     server = app.listen(config.port, () => {

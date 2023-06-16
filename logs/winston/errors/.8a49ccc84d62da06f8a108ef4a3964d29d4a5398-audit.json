@@ -184,6 +184,41 @@
             "date": 1686837800171,
             "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-15-06-20-error.log",
             "hash": "189512e4c5ab99d21d27e48a9758a2b0187484afd978ba105a98b499f0986c76"
+        },
+        {
+            "date": 1686841251775,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-15-06-21-error.log",
+            "hash": "21cbe9c5ff95983e931991c1fdb2f6516b6ebf7239f74a5c5be4853b8fc3c59a"
+        },
+        {
+            "date": 1686845952109,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-15-06-22-error.log",
+            "hash": "93d783dabcdd464b03d7809de09be2faa75cd1b93babee8370395cede9c02acb"
+        },
+        {
+            "date": 1686852159986,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-16-06-00-error.log",
+            "hash": "6a3bbeb273022a783aee03d807e967b1a05708a1cd8b1dcb0e0baecc8b844746"
+        },
+        {
+            "date": 1686855695789,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-16-06-01-error.log",
+            "hash": "c74d24cc7879e9cd67d1c1d0ac5a88c4d0c985b5a45d719ffd7f766656567f26"
+        },
+        {
+            "date": 1686891977551,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-16-06-11-error.log",
+            "hash": "a1035460112b1053a9249dab729a2b81cab180d2246b6d60042e4451d3ddcedb"
+        },
+        {
+            "date": 1686895308008,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-16-06-12-error.log",
+            "hash": "78a4dc131baf74b658c2847da48b0363ce12dd6c42d39fb4a3ad777f5c3c0b71"
+        },
+        {
+            "date": 1686914114565,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-16-06-17-error.log",
+            "hash": "4033de51391c50fa1639d7b54462bab5c5ed5db2c6c083c2d92948f83d75fb65"
         }
     ],
     "hashType": "sha256"
