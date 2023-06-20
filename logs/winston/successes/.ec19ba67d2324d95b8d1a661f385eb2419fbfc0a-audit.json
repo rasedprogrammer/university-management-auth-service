@@ -1,230 +1,230 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\.ec19ba67d2324d95b8d1a661f385eb2419fbfc0a-audit.json",
+  "files": [
+    {
+      "date": 1685945012341,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-05-06-12-success.log",
+      "hash": "d2f9d845941b22af26cf55ccc238d31af377a232196bc737d5e7895138190eb9"
     },
-    "auditLog": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\.ec19ba67d2324d95b8d1a661f385eb2419fbfc0a-audit.json",
-    "files": [
-        {
-            "date": 1685945012341,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-05-06-12-success.log",
-            "hash": "d2f9d845941b22af26cf55ccc238d31af377a232196bc737d5e7895138190eb9"
-        },
-        {
-            "date": 1686148026456,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-20-success.log",
-            "hash": "2e492fd750a83caf5ac664f1d58e100410fcd072e6e41320cffe50eab21162b0"
-        },
-        {
-            "date": 1686150363849,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-21-success.log",
-            "hash": "98a28f32c0ca3cd2e62c685e3ffe803dd9868ab8e33f0b5f94031c4d02ee17ba"
-        },
-        {
-            "date": 1686153635226,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-22-success.log",
-            "hash": "e13a495415ff9ee34abc100b6c6ba8254655f8b68bc68461c1d1af0a9ac7f904"
-        },
-        {
-            "date": 1686158635172,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-23-success.log",
-            "hash": "8dd50c7a59c76dbbec533ffc6007478f1ff3ba644c9e7c03a84e478ff4199175"
-        },
-        {
-            "date": 1686239833098,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-08-06-21-success.log",
-            "hash": "d4b7ee233c77895dbe654fd99c0c27fcb9b29b03c70d29126ec95bb3db7adff1"
-        },
-        {
-            "date": 1686240022799,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-08-06-22-success.log",
-            "hash": "6dd3399cc730df08c28f623241e9766d89c702f1bfe4e6d6c5d15afb1dc4dc38"
-        },
-        {
-            "date": 1686247074453,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-08-06-23-success.log",
-            "hash": "26e42ac74c3b55f79b99920627dea5d7eb34e69bf654f6dc96198ef46fd357ea"
-        },
-        {
-            "date": 1686247318433,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-00-success.log",
-            "hash": "0fa87ec08947bdfab69cc6bcf63e2edbdef08991dd7cc3a0a58eaa63a01d4134"
-        },
-        {
-            "date": 1686322411867,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-20-success.log",
-            "hash": "b6d8d4499b6b24a8cfd6dd601fc2e0df8181fe0c9a2da317d710de3d6ad86a85"
-        },
-        {
-            "date": 1686323620309,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-21-success.log",
-            "hash": "aede4387936ab481d97c66997e7a0393e043595735017fa2a8693e634d28ba73"
-        },
-        {
-            "date": 1686326486626,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-22-success.log",
-            "hash": "e42955902595fe013a9ce0be30e7fcb3b218cc2822c6b6a526cc82b43e24796e"
-        },
-        {
-            "date": 1686332660067,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-23-success.log",
-            "hash": "c1d41686d746fd6c8c530d30f4f0304ed1bbad71a224dbff1646266d878aed7a"
-        },
-        {
-            "date": 1686333614776,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-10-06-00-success.log",
-            "hash": "3fecc27f5edf9a913818df49a8ba2f444c7fabf55d1d754b9890dc48fe77c48f"
-        },
-        {
-            "date": 1686579065193,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-12-06-20-success.log",
-            "hash": "f5256eed79c28d4345170065783a563a8a4178e85fe2ac85332059a81c338d5c"
-        },
-        {
-            "date": 1686582610906,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-12-06-21-success.log",
-            "hash": "0ef1a7279e8867d762226d25eb5e82e536afecd623d02db420c49801c35f4517"
-        },
-        {
-            "date": 1686588818403,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-12-06-22-success.log",
-            "hash": "99a428409f826dee754e0d28a17ca9c21a71b7623a41291282df80d253cbe870"
-        },
-        {
-            "date": 1686628346116,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-09-success.log",
-            "hash": "ccf0f1b77eb88d2090ab5174f6b9b5f84e7aacd37be7c1da0f51447fa3284805"
-        },
-        {
-            "date": 1686629214394,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-10-success.log",
-            "hash": "31c66045aeef0d4ef038331700b80a4a14a7331e1fe3e5b9a4a0a1f8ae25f9f5"
-        },
-        {
-            "date": 1686666320007,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-20-success.log",
-            "hash": "28af40c1f274095fc7a72bcd9e4c04e93e652179b293f90a31e2bf9c092dc616"
-        },
-        {
-            "date": 1686668811990,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-21-success.log",
-            "hash": "47a1aedaa2a2d329a36d8384f57010d3c6561a5de931863f9b29d07799a3876c"
-        },
-        {
-            "date": 1686678505620,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-23-success.log",
-            "hash": "7eb71e93a62d4ce5b7e5fa454b63c5cde96a18dbde370ca7d601ebde2fd1e2a9"
-        },
-        {
-            "date": 1686679288189,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-00-success.log",
-            "hash": "05ad6c3396224a174c4966ba3dd8fd833520747e4461e46b4d1bc6fa03ceb759"
-        },
-        {
-            "date": 1686682804454,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-01-success.log",
-            "hash": "4d62dda73d0d9296f071cfa0813f7f030129ce441a7e6e89a9c5abb31268a8e1"
-        },
-        {
-            "date": 1686734899199,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-15-success.log",
-            "hash": "dcfc7f3fe4b6bc548e0e0342908038809055e6a79bed167505ec00ed9533bc39"
-        },
-        {
-            "date": 1686749386205,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-19-success.log",
-            "hash": "1b657d76e48a8e8258376b24e0603f8bc4eebad6278290d392ec9cd9540370db"
-        },
-        {
-            "date": 1686751499335,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-20-success.log",
-            "hash": "c0df09408159204cfaae6f24c4e9479acedf9df1410315a5b48b9d8223c4caea"
-        },
-        {
-            "date": 1686755006019,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-21-success.log",
-            "hash": "ba5ae88c03a5b79e0b85fed4d78d9e344e70b6e66a0bc1dba5115954a3900c5b"
-        },
-        {
-            "date": 1686758529118,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-22-success.log",
-            "hash": "5514e378c7e412073b712cc5e55cdf9e1d9fc10d670ef4bcc178a951873199c3"
-        },
-        {
-            "date": 1686763363285,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-23-success.log",
-            "hash": "fc571ec478b5b8b506dac930e5969200badc8df19a56658572d476a969bfeeb4"
-        },
-        {
-            "date": 1686765647982,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-00-success.log",
-            "hash": "9d7efe81db06a71b761bbb1b592f039bfd6915230353661939188934d351a56d"
-        },
-        {
-            "date": 1686803155900,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-10-success.log",
-            "hash": "0b7e31c81217d2f979c7634ae4d9bd4aceda786bb89e2e8d4553fec8af194c7e"
-        },
-        {
-            "date": 1686805942448,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-11-success.log",
-            "hash": "5c1027ea18ded172580d77184cb2dda4e687e03d1f1eeed22ba8938d621affad"
-        },
-        {
-            "date": 1686814517238,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-13-success.log",
-            "hash": "12421e4fc0e3fdbb97fa37ae26ff11e73342f6e3d1fce8e90394fcce0721e581"
-        },
-        {
-            "date": 1686835517705,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-19-success.log",
-            "hash": "151bcc56ea831e69471b3e7c8c00b085e698e67253aa2494191a2a0eb40d8be7"
-        },
-        {
-            "date": 1686837800167,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-20-success.log",
-            "hash": "cdebc4f49ae6587e621043fc8313fdfd88ff9c9d2db21e806fa9bb688314b61d"
-        },
-        {
-            "date": 1686841251769,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-21-success.log",
-            "hash": "b7eef026f0867c9208439ce43ffbd06ff72b9de3285f951629ab8c612f25b228"
-        },
-        {
-            "date": 1686845952105,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-22-success.log",
-            "hash": "f5500e7fed0bb5c1c81c59fdbce7e6d594af12b3d4494a8ae252b1691e462257"
-        },
-        {
-            "date": 1686852159979,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-00-success.log",
-            "hash": "7f6592acbe01a0ff208f24f21f17ca06752b2fecab29b51a9ace467f114f3fa6"
-        },
-        {
-            "date": 1686855695780,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-01-success.log",
-            "hash": "5dce7bb862e88e4b05dcacb46c5805bb1bd4ca37f2b2ea516606939f258327f0"
-        },
-        {
-            "date": 1686891977546,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-11-success.log",
-            "hash": "de8d1e60535eaf4e9820ad80c7208295de1ba0b395d14cd9d24c4ba5ee123bb4"
-        },
-        {
-            "date": 1686895308004,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-12-success.log",
-            "hash": "cc3ea222ee81cfb648f523cf76f12b219f28df9a75b0c6bb479fb52320dd0c7e"
-        },
-        {
-            "date": 1686914114550,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-17-success.log",
-            "hash": "077dea8590435e56d1298b3214fc43972a0ebebf3f80e3fab83e05dec87c8d5e"
-        },
-        {
-            "date": 1686917389885,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-18-success.log",
-            "hash": "ae846aebe84dc0f82f0e7e34838fc2f704ba7fbad7d33920c079232ea384cf1b"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686148026456,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-20-success.log",
+      "hash": "2e492fd750a83caf5ac664f1d58e100410fcd072e6e41320cffe50eab21162b0"
+    },
+    {
+      "date": 1686150363849,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-21-success.log",
+      "hash": "98a28f32c0ca3cd2e62c685e3ffe803dd9868ab8e33f0b5f94031c4d02ee17ba"
+    },
+    {
+      "date": 1686153635226,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-22-success.log",
+      "hash": "e13a495415ff9ee34abc100b6c6ba8254655f8b68bc68461c1d1af0a9ac7f904"
+    },
+    {
+      "date": 1686158635172,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-07-06-23-success.log",
+      "hash": "8dd50c7a59c76dbbec533ffc6007478f1ff3ba644c9e7c03a84e478ff4199175"
+    },
+    {
+      "date": 1686239833098,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-08-06-21-success.log",
+      "hash": "d4b7ee233c77895dbe654fd99c0c27fcb9b29b03c70d29126ec95bb3db7adff1"
+    },
+    {
+      "date": 1686240022799,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-08-06-22-success.log",
+      "hash": "6dd3399cc730df08c28f623241e9766d89c702f1bfe4e6d6c5d15afb1dc4dc38"
+    },
+    {
+      "date": 1686247074453,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-08-06-23-success.log",
+      "hash": "26e42ac74c3b55f79b99920627dea5d7eb34e69bf654f6dc96198ef46fd357ea"
+    },
+    {
+      "date": 1686247318433,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-00-success.log",
+      "hash": "0fa87ec08947bdfab69cc6bcf63e2edbdef08991dd7cc3a0a58eaa63a01d4134"
+    },
+    {
+      "date": 1686322411867,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-20-success.log",
+      "hash": "b6d8d4499b6b24a8cfd6dd601fc2e0df8181fe0c9a2da317d710de3d6ad86a85"
+    },
+    {
+      "date": 1686323620309,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-21-success.log",
+      "hash": "aede4387936ab481d97c66997e7a0393e043595735017fa2a8693e634d28ba73"
+    },
+    {
+      "date": 1686326486626,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-22-success.log",
+      "hash": "e42955902595fe013a9ce0be30e7fcb3b218cc2822c6b6a526cc82b43e24796e"
+    },
+    {
+      "date": 1686332660067,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-09-06-23-success.log",
+      "hash": "c1d41686d746fd6c8c530d30f4f0304ed1bbad71a224dbff1646266d878aed7a"
+    },
+    {
+      "date": 1686333614776,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-10-06-00-success.log",
+      "hash": "3fecc27f5edf9a913818df49a8ba2f444c7fabf55d1d754b9890dc48fe77c48f"
+    },
+    {
+      "date": 1686579065193,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-12-06-20-success.log",
+      "hash": "f5256eed79c28d4345170065783a563a8a4178e85fe2ac85332059a81c338d5c"
+    },
+    {
+      "date": 1686582610906,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-12-06-21-success.log",
+      "hash": "0ef1a7279e8867d762226d25eb5e82e536afecd623d02db420c49801c35f4517"
+    },
+    {
+      "date": 1686588818403,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-12-06-22-success.log",
+      "hash": "99a428409f826dee754e0d28a17ca9c21a71b7623a41291282df80d253cbe870"
+    },
+    {
+      "date": 1686628346116,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-09-success.log",
+      "hash": "ccf0f1b77eb88d2090ab5174f6b9b5f84e7aacd37be7c1da0f51447fa3284805"
+    },
+    {
+      "date": 1686629214394,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-10-success.log",
+      "hash": "31c66045aeef0d4ef038331700b80a4a14a7331e1fe3e5b9a4a0a1f8ae25f9f5"
+    },
+    {
+      "date": 1686666320007,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-20-success.log",
+      "hash": "28af40c1f274095fc7a72bcd9e4c04e93e652179b293f90a31e2bf9c092dc616"
+    },
+    {
+      "date": 1686668811990,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-21-success.log",
+      "hash": "47a1aedaa2a2d329a36d8384f57010d3c6561a5de931863f9b29d07799a3876c"
+    },
+    {
+      "date": 1686678505620,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-13-06-23-success.log",
+      "hash": "7eb71e93a62d4ce5b7e5fa454b63c5cde96a18dbde370ca7d601ebde2fd1e2a9"
+    },
+    {
+      "date": 1686679288189,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-00-success.log",
+      "hash": "05ad6c3396224a174c4966ba3dd8fd833520747e4461e46b4d1bc6fa03ceb759"
+    },
+    {
+      "date": 1686682804454,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-01-success.log",
+      "hash": "4d62dda73d0d9296f071cfa0813f7f030129ce441a7e6e89a9c5abb31268a8e1"
+    },
+    {
+      "date": 1686734899199,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-15-success.log",
+      "hash": "dcfc7f3fe4b6bc548e0e0342908038809055e6a79bed167505ec00ed9533bc39"
+    },
+    {
+      "date": 1686749386205,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-19-success.log",
+      "hash": "1b657d76e48a8e8258376b24e0603f8bc4eebad6278290d392ec9cd9540370db"
+    },
+    {
+      "date": 1686751499335,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-20-success.log",
+      "hash": "c0df09408159204cfaae6f24c4e9479acedf9df1410315a5b48b9d8223c4caea"
+    },
+    {
+      "date": 1686755006019,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-21-success.log",
+      "hash": "ba5ae88c03a5b79e0b85fed4d78d9e344e70b6e66a0bc1dba5115954a3900c5b"
+    },
+    {
+      "date": 1686758529118,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-22-success.log",
+      "hash": "5514e378c7e412073b712cc5e55cdf9e1d9fc10d670ef4bcc178a951873199c3"
+    },
+    {
+      "date": 1686763363285,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-14-06-23-success.log",
+      "hash": "fc571ec478b5b8b506dac930e5969200badc8df19a56658572d476a969bfeeb4"
+    },
+    {
+      "date": 1686765647982,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-00-success.log",
+      "hash": "9d7efe81db06a71b761bbb1b592f039bfd6915230353661939188934d351a56d"
+    },
+    {
+      "date": 1686803155900,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-10-success.log",
+      "hash": "0b7e31c81217d2f979c7634ae4d9bd4aceda786bb89e2e8d4553fec8af194c7e"
+    },
+    {
+      "date": 1686805942448,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-11-success.log",
+      "hash": "5c1027ea18ded172580d77184cb2dda4e687e03d1f1eeed22ba8938d621affad"
+    },
+    {
+      "date": 1686814517238,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-13-success.log",
+      "hash": "12421e4fc0e3fdbb97fa37ae26ff11e73342f6e3d1fce8e90394fcce0721e581"
+    },
+    {
+      "date": 1686835517705,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-19-success.log",
+      "hash": "151bcc56ea831e69471b3e7c8c00b085e698e67253aa2494191a2a0eb40d8be7"
+    },
+    {
+      "date": 1686837800167,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-20-success.log",
+      "hash": "cdebc4f49ae6587e621043fc8313fdfd88ff9c9d2db21e806fa9bb688314b61d"
+    },
+    {
+      "date": 1686841251769,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-21-success.log",
+      "hash": "b7eef026f0867c9208439ce43ffbd06ff72b9de3285f951629ab8c612f25b228"
+    },
+    {
+      "date": 1686845952105,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-15-06-22-success.log",
+      "hash": "f5500e7fed0bb5c1c81c59fdbce7e6d594af12b3d4494a8ae252b1691e462257"
+    },
+    {
+      "date": 1686852159979,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-00-success.log",
+      "hash": "7f6592acbe01a0ff208f24f21f17ca06752b2fecab29b51a9ace467f114f3fa6"
+    },
+    {
+      "date": 1686855695780,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-01-success.log",
+      "hash": "5dce7bb862e88e4b05dcacb46c5805bb1bd4ca37f2b2ea516606939f258327f0"
+    },
+    {
+      "date": 1686891977546,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-11-success.log",
+      "hash": "de8d1e60535eaf4e9820ad80c7208295de1ba0b395d14cd9d24c4ba5ee123bb4"
+    },
+    {
+      "date": 1686895308004,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-12-success.log",
+      "hash": "cc3ea222ee81cfb648f523cf76f12b219f28df9a75b0c6bb479fb52320dd0c7e"
+    },
+    {
+      "date": 1686914114550,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-17-success.log",
+      "hash": "077dea8590435e56d1298b3214fc43972a0ebebf3f80e3fab83e05dec87c8d5e"
+    },
+    {
+      "date": 1686917389885,
+      "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-18-success.log",
+      "hash": "ae846aebe84dc0f82f0e7e34838fc2f704ba7fbad7d33920c079232ea384cf1b"
+    }
+  ],
+  "hashType": "sha256"
 }
