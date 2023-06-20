@@ -219,6 +219,11 @@
             "date": 1686914114565,
             "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-16-06-17-error.log",
             "hash": "4033de51391c50fa1639d7b54462bab5c5ed5db2c6c083c2d92948f83d75fb65"
+        },
+        {
+            "date": 1686917389895,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-16-06-18-error.log",
+            "hash": "b2b0384c4a6ab39a2a2e3ff00b8e5d2a8d4f0f10a18bd496f7d857d578d1f8b9"
         }
     ],
     "hashType": "sha256"
