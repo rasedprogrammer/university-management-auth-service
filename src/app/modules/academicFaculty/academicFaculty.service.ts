@@ -1,7 +1,7 @@
 import { SortOrder } from 'mongoose';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
-import { IpaginationOptions } from '../../../interfaces/pagination';
+import { IPaginationOptions } from '../../../interfaces/pagination';
 import { academicFacultySearchableFields } from './academicFaculty.constant';
 import {
   IAcademicFaculty,
@@ -18,7 +18,7 @@ const createFaculty = async (
 
 const getAllFaculty = async (
   filters: IAcademicFacultyFilters,
-  paginationOptions: IpaginationOptions
+  paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IAcademicFaculty[]>> => {
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip, sortBy, sortOrder } =

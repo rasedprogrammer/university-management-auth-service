@@ -7,7 +7,7 @@ import {
   IManagementDepartment,
   IManagementDepartmentFilters,
 } from './managementDepartment.interface';
-import { IpaginationOptions } from '../../../interfaces/pagination';
+import { IPaginationOptions } from '../../../interfaces/pagination';
 
 const createDepartment = async (
   payload: IManagementDepartment
@@ -18,7 +18,7 @@ const createDepartment = async (
 
 const getAllDepartments = async (
   filters: IManagementDepartmentFilters,
-  paginationOptions: IpaginationOptions
+  paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IManagementDepartment[]>> => {
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip, sortBy, sortOrder } =

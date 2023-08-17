@@ -7,12 +7,12 @@ import { IGenericResponse } from '../../../interfaces/common';
 import { adminSearchableFields } from './admin.constant';
 import { IAdmin, IAdminFilters } from './admin.interface';
 import { Admin } from './admin.model';
-import { IpaginationOptions } from '../../../interfaces/pagination';
+import { IPaginationOptions } from '../../../interfaces/pagination';
 import { User } from '../users/user.model';
 
 const getAllAdmins = async (
   filters: IAdminFilters,
-  paginationOptions: IpaginationOptions
+  paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IAdmin[]>> => {
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip, sortBy, sortOrder } =

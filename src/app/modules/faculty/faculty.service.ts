@@ -9,12 +9,12 @@ import ApiError from '../../../errors/ApiError';
 import { facultySearchableFields } from './faculty.constant';
 import { IFaculty, IFacultyFilters } from './faculty.interface';
 import { Faculty } from './faculty.model';
-import { IpaginationOptions } from '../../../interfaces/pagination';
+import { IPaginationOptions } from '../../../interfaces/pagination';
 import { User } from '../users/user.model';
 
 const getAllFaculties = async (
   filters: IFacultyFilters,
-  paginationOptions: IpaginationOptions
+  paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IFaculty[]>> => {
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip, sortBy, sortOrder } =

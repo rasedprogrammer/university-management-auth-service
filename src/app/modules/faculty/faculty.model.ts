@@ -58,23 +58,23 @@ const FacultySchema = new Schema<IFaculty, FacultyModel>(
       type: String,
       required: true,
     },
+    designation: {
+      type: String,
+      required: true,
+    },
     academicDepartment: {
       type: Types.ObjectId,
       ref: 'AcademicDepartment',
       required: true,
     },
-    designation: {
-      type: String,
+    academicFaculty: {
+      type: Types.ObjectId,
+      ref: 'AcademicFaculty',
       required: true,
     },
     profileImage: {
       type: String,
       // required: true,
-    },
-    academicFaculty: {
-      type: Types.ObjectId,
-      ref: 'AcademicFaculty',
-      required: true,
     },
   },
   {
