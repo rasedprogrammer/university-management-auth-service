@@ -13,7 +13,7 @@ const createStudent: RequestHandler = catchAsync(
     sendResponse<IUser>(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'User created is successfully',
+      message: 'Student created is successfully',
       data: result,
     });
   }
@@ -27,7 +27,7 @@ const createFaculy: RequestHandler = catchAsync(
     sendResponse<IUser>(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'user created successfully!',
+      message: 'Faculty created successfully!',
       data: result,
     });
   }

@@ -6,19 +6,14 @@
     "auditLog": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\.ec19ba67d2324d95b8d1a661f385eb2419fbfc0a-audit.json",
     "files": [
         {
-            "date": 1686914114550,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-17-success.log",
-            "hash": "077dea8590435e56d1298b3214fc43972a0ebebf3f80e3fab83e05dec87c8d5e"
+            "date": 1692278420161,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-17-08-19-success.log",
+            "hash": "fa5143bef5eed10bf573a33b188a16b12ed092ff478c935989dca4ce7eb76552"
         },
         {
-            "date": 1686917389885,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-16-06-18-success.log",
-            "hash": "ae846aebe84dc0f82f0e7e34838fc2f704ba7fbad7d33920c079232ea384cf1b"
-        },
-        {
-            "date": 1688108512721,
-            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-30-06-13-success.log",
-            "hash": "efc5583d0bec3a275f79503b5c438e097034d5d33dacf21de6f4718458de3ab1"
+            "date": 1692282511135,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\successes\\rum-2023-17-08-20-success.log",
+            "hash": "f87f8e5f7b6345c03e2144a0411858c30aa0f0841b51ed5adff1dc01ce9e639e"
         }
     ],
     "hashType": "sha256"
