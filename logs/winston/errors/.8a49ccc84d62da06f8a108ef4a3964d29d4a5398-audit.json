@@ -29,6 +29,36 @@
             "date": 1692291623962,
             "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-17-08-23-error.log",
             "hash": "a415be1e074650e7daf06a62f2c93c038ee2fd3643e55bade36eb70751ffe8c1"
+        },
+        {
+            "date": 1692338633449,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-18-08-12-error.log",
+            "hash": "447cd985987edb8879b56a63e50fda329bda0b5de6d4dfcc3f135f6ff1357c7c"
+        },
+        {
+            "date": 1692342053083,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-18-08-13-error.log",
+            "hash": "71a4be33dbf96f9edd672919f9e4981ba4153e9baa3478cf6298fc7bf573cf17"
+        },
+        {
+            "date": 1692359311927,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-18-08-17-error.log",
+            "hash": "9c82130225439cb4f003040815293ab5331be51ec53d1c045622305b6d02d7b7"
+        },
+        {
+            "date": 1692360765646,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-18-08-18-error.log",
+            "hash": "3bddff7221c0cc4d45153408b7e9c66cf3935968d21fd9639b318f98a1bf4089"
+        },
+        {
+            "date": 1692363601683,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-18-08-19-error.log",
+            "hash": "91cca759d91d95007911f40bd2098f570a8d7422f788b94d00a549fb80b60af0"
+        },
+        {
+            "date": 1692367226162,
+            "name": "E:\\programmingHeroCourse\\Main Course Label 2\\projects\\university-management-auth-service\\logs\\winston\\errors\\rum-2023-18-08-20-error.log",
+            "hash": "707bb61709a486ae46574869b7473e1905dc0e917173169561b09798506b88f4"
         }
     ],
     "hashType": "sha256"

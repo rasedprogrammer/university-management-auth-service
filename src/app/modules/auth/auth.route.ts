@@ -9,14 +9,10 @@ router.post(
   validateRequest(AuthValidation.loginZodSchema),
   AuthController.loginUser
 );
-// router.get('/', AdminController.getAllAdmins);
-
-// router.delete('/:id', AdminController.deleteAdmin);
-
-// router.patch(
-//   '/:id',
-//   validateRequest(AdminValidation.updateAdmin),
-//   AdminController.updateAdmin
-// );
+router.post(
+  '/refresh-token',
+  validateRequest(AuthValidation.refreshTokenZodSchema),
+  AuthController.refreshToken
+);
 
 export const AuthRoutes = router;
