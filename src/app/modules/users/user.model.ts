@@ -4,7 +4,11 @@ import { IUser, UserModel } from './user.interface';
 import bcrypt from 'bcrypt';
 import config from '../../../config';
 
-const userSchema = new Schema<IUser>(
+// const userSchema = new Schema<IUser, Record<string, never>, IUserMethods>( -- Instance Method
+/**
+ * Static Method Apply
+ */
+const userSchema = new Schema<IUser, UserModel>(
   {
     id: {
       type: String,
@@ -18,6 +22,11 @@ const userSchema = new Schema<IUser>(
     password: {
       type: String,
       required: true,
+      select: 0,
+    },
+    needsPasswordChange: {
+      type: Boolean,
+      default: true,
     },
     student: {
       type: Schema.Types.ObjectId,
@@ -39,6 +48,25 @@ const userSchema = new Schema<IUser>(
     },
   }
 );
+// Static Method Modle
+userSchema.statics.isUserExist = async function (
+  id: string
+): Promise<Pick<
+  IUser,
+  'id' | 'password' | 'role' | 'needsPasswordChange'
+> | null> {
+  return await User.findOne(
+    { id },
+    { id: 1, password: 1, role: 1, needsPasswordChange: 1 }
+  );
+};
+
+userSchema.statics.isPasswordMatched = async function (
+  givenPassword: string,
+  savedPassword: string
+): Promise<boolean> {
+  return await bcrypt.compare(givenPassword, savedPassword);
+};
 
 userSchema.pre('save', async function (next) {
   // Hasing User Password
@@ -51,3 +79,28 @@ userSchema.pre('save', async function (next) {
 });
 
 export const User = model<IUser, UserModel>('User', userSchema);
+
+/**
+ * Instance Method Model Decalare
+ */
+/**
+ * 
+ userSchema.methods.isUserExist = async function (
+  id: string
+): Promise<Partial<IUser> | null> {
+  const user = await User.findOne(
+    { id },
+    { id: 1, password: 1, needsPasswordChange: 1 }
+  );
+  return user;
+};
+
+userSchema.methods.isPasswordMatch = async function (
+  givenPassword: string,
+  savedPassword: string
+): Promise<boolean> {
+  // Without Return Variable Declare
+  return await bcrypt.compare(givenPassword, savedPassword);
+};
+
+ */

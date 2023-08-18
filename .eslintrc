@@ -17,9 +17,9 @@
     "prefer-const": "error",
     "no-unused-expressions": "error",
     "no-console": "warn",
-    "no-undef": "error"
-    // "no-unreachable": "error",
-    // "@typescript-eslint/consistebt-type-definitions": ["error", "type"]
+    "no-undef": "error",
+    "no-unreachable": "error"
+    //"@typescript-eslint/consistebt-type-definitions": ["error", "type"]
   },
 
   "env": {
