@@ -24,6 +24,9 @@ const userSchema = new Schema<IUser, UserModel>(
       required: true,
       select: 0,
     },
+    passwordChangeAT: {
+      type: Date,
+    },
     needsPasswordChange: {
       type: Boolean,
       default: true,
@@ -75,32 +78,12 @@ userSchema.pre('save', async function (next) {
     user.password,
     Number(config.bycrypt_salt_rounds)
   );
+
+  if (!user.needsPasswordChange) {
+    user.passwordChangeAT = new Date();
+  }
+
   next();
 });
 
 export const User = model<IUser, UserModel>('User', userSchema);
-
-/**
- * Instance Method Model Decalare
- */
-/**
- * 
- userSchema.methods.isUserExist = async function (
-  id: string
-): Promise<Partial<IUser> | null> {
-  const user = await User.findOne(
-    { id },
-    { id: 1, password: 1, needsPasswordChange: 1 }
-  );
-  return user;
-};
-
-userSchema.methods.isPasswordMatch = async function (
-  givenPassword: string,
-  savedPassword: string
-): Promise<boolean> {
-  // Without Return Variable Declare
-  return await bcrypt.compare(givenPassword, savedPassword);
-};
-
- */
