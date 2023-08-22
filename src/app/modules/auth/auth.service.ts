@@ -2,21 +2,17 @@ import httpStatus from 'http-status';
 import { User } from '../users/user.model';
 import ApiError from '../../../errors/ApiError';
 import {
+  IChangePassword,
   ILoginUser,
   ILoginUserResponse,
   IRefreshTokenResponse,
 } from './auth.interface';
-import { Secret } from 'jsonwebtoken';
+import { JwtPayload, Secret } from 'jsonwebtoken';
 import config from '../../../config';
 import { jwtHelpers } from '../../../helpers/jwtHelpers';
 
 const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
   const { id, password } = payload;
-  // creating instance of User
-  // const user = new User();
-  //  // access to our instance methods
-  //   const isUserExist = await user.isUserExist(id);
-
   const isUserExist = await User.isUserExist(id);
 
   if (!isUserExist) {
@@ -56,7 +52,7 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
       token,
       config.jwt.refresh_secret as Secret
     );
-  } catch (err) {
+  } catch (error) {
     throw new ApiError(httpStatus.FORBIDDEN, 'Invalid Refresh Token');
   }
   const { userId } = verifiedToken;
@@ -75,7 +71,48 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
   };
 };
 
+const changePassword = async (
+  user: JwtPayload | null,
+  payload: IChangePassword
+): Promise<void> => {
+  const { oldPassword, newPassword } = payload;
+  // Alternative Way
+  const isUserExist = await User.findOne({ id: user?.userId }).select(
+    '+password'
+  );
+  // const isUserExist = User.isUserExist(user?.userId);
+  if (!isUserExist) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'User Dose Not Exist');
+  }
+  if (
+    isUserExist.password &&
+    !(await User.isPasswordMatched(oldPassword, isUserExist?.password))
+  ) {
+    throw new ApiError(httpStatus.UNAUTHORIZED, 'Old Password Is Incorrect');
+  }
+  // Update Password Using Save Method
+  isUserExist.password = newPassword;
+  isUserExist.needsPasswordChange = false;
+  isUserExist.save();
+  // // Password Hasing
+  // const newHasehedPassword = await bcrypt.hash(
+  //   newPassword,
+  //   Number(config.bycrypt_salt_rounds)
+  // );
+
+  // // Update Password
+  // const query = { id: user?.userId };
+  // const updatedData = {
+  //   password: newHasehedPassword,
+  //   needsPasswordChange: false,
+  //   passwordChangeAT: new Date(),
+  // };
+  // await User.findOneAndUpdate(query, updatedData);
+  // return {};
+};
+
 export const AuthService = {
   loginUser,
   refreshToken,
+  changePassword,
 };
